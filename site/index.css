@@ -1,0 +1,153 @@
+
+body
+{
+	background-color: #000;
+}
+/*** Header Navbar Styling ***/
+#navbar 
+ {
+   background-color: slategray;
+   border-radius: 30px; 
+   border: 0;
+   min-height: 150px ;
+  }
+
+.navbar-brand { padding-top: 80px; }
+
+/*** Restaurant name ***/
+.navbar-brand h1  
+ { 
+  font-family: 'Luckiest Guy', cursive; 
+  color: whitesmoke; 
+  text-shadow: 4px 4px 4px #222; 
+  line-height: .7;
+  font-size: 50px; 
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 10px;
+ }
+ .navbar-brand a:hover, .navbar-brand a:focus 
+  { text-decoration: none; } 
+ /*** navbar list component ***/
+ #nav-list 
+ {
+    margin-top: 20px;
+ }
+ #nav-list a /*** LIST item's ***/
+  {
+    color: Black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+#nav-list a:hover /*** item's within HOVER ***/
+{
+  border: 1.5px double slategray;
+  background-color: whitesmoke;
+}
+.navbar-header button.navbar-toggle, 
+
+/*** collapes tool in small veiw ***/
+.navbar-header 
+.icon-bar  
+{ border: 1.5px solid #4E204D; background-color:whitesmoke;} 
+/*** collapes tool in small veiw some STYLEING***/
+.navbar-header 
+button.navbar-toggle
+{ 
+  clear: both;
+  margin-top: -14px;
+}
+/*******                    *******/
+/*******                    *******/
+/*******                    *******/
+/*******                    *******/
+#our-menu h2
+{
+	color: snow;
+	text-shadow: 2px 2px 2px #000;
+	font-weight: bold;
+	font-family: cursive;
+	font-size: 60px;
+}
+#main-content span
+{
+	text-align: center;
+	font-weight: bold;
+}
+#Chicken, #Beef, #Sushi
+{
+	 height: 350px;
+   width: 100%;
+   position: relative;
+   border: 2px solid whitesmoke;
+   border-radius: 50px ;
+   box-shadow: 5px 5px 5px white;
+   overflow: hidden;
+   margin-top: 50px;
+   padding: 25px;
+   text-align: center;
+   font-size: 1.2em;
+}
+
+#Chicken span, 
+#Beef    span, 
+#Sushi   span
+{   
+   position: absolute;
+   bottom:0;
+   right: 0;
+   width: 100%;
+   font-size: 1.8em;
+   font-family: 'Henny Penny', cursive;
+   font-weight: bold;
+   color: Black;
+   background: white;
+   opacity: .8;
+   text-align: center;
+
+#Chicken:hover, 
+#Beef:hover, 
+#Sushi:hover
+{box-shadow: 5px 5px 5px slategray;}
+.row div div div
+{
+  color: snow;
+}
+.row a
+{
+  text-decoration: none;
+}
+@media (min-width: 991px) and (max-width: 1199px)
+{
+  #Chicken, #Sushi, #Beef
+  {
+    height: 390px;
+  }
+}
+@media (min-width: 768px) and (max-width: 990px)
+{
+  #Chicken, #Sushi, #Beef
+  {
+    height: 360px;
+  }
+  .col-sm-12 #Sushi
+  {
+    height: 200px;
+  }
+}
+@media (min-width: 654px) and (max-width: 767px) 
+{
+  #Chicken, #Sushi, #Beef
+  {
+    height: 200px;
+  }
+}
+@media (max-width: 653px) 
+{
+  #Chicken, #Sushi, #Beef
+  {
+    height: 250px;
+  }
+}
